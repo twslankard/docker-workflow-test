@@ -1,0 +1,4 @@
+from ubuntu
+volume /repo
+workdir /repo
+run apt-get update -y && apt-get install build-essential -y

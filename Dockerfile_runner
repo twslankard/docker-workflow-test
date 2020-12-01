@@ -1,0 +1,6 @@
+from ubuntu
+
+COPY ./build/app /
+
+CMD ./app
+
